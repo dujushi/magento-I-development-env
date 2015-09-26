@@ -36,5 +36,11 @@ sudo vim /etc/hosts
 ```
 Now you can visit mage.local on your browser to set up the site.
 
-
-
+## What you get
+1. MySQL: 
+* Database name: mage
+* User/Password: mage/123456
+2. Magento:
+/var/www/mage on the server is mapped to mages/mage on our local machine. You can modify the code directly with any IDE.
+3. SSH:
+Run 'vagrant ssh' to access the server
